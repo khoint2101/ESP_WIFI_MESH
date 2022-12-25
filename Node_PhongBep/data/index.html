@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME DASHBOARD - WEBSERVER </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <img src="logo.png" height="100px" width="100px" />
+        <h1>DT3B - DO AN 2 - GROUP 5</h1>
+        <h1>QUAN LY THONG SO CAM BIEN TRONG NHA</h1>
+    </div>
+    <div class="content">
+        <div class="card-grid">
+            <div class="card">
+                <p class="card-title"> PHONG KHACH</p>
+                <p>ESP32 ROOT NODE</p>
+                <div class="data-container">
+                    <div class="data-item">
+                        <p class="tempPhongKhach value"></p>
+                        <img src="temp.png" width="50" />
+                    </div>
+                    <div class="data-item">
+                        <p class="humPhongKhach value"></p>
+                        <img src="hum.png" width="50" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-title">PHONG NGU</p>
+                <p>ESP32 NODE 1</p>
+                <div class="data-container">
+                    <div class="data-item">
+                        <p class="tempPhongNgu value"></p>
+                        <img src="temp.png" width="50" />
+                    </div>
+                    <div class="data-item">
+                        <p class="humPhongNgu value"></p>
+                        <img src="hum.png" width="50" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-title">PHONG BEP</p>
+                <p>ESP32 NODE 2</p>
+                <div class="data-container">
+                    <div class="data-item">
+                        <p class="gasPhongBep value"></p>
+                        <img src="gas.png" width="50" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="card-grid">
+                <div class="card">
+                    <h1 style="color:#e63d3d;"> GROUP MEMBERS</H1>
+                    <p>1. Nguyen Trong Khoi - DT030223</p>
+                    <p>2. Hoang Dung - DT030206</p>
+                    <p>3. Do Thi Van - DT030221</p>
+                    <p>4. Bui Viet Dung - DT030221</p>
+                    <p>5. Ngo Tien Dung - DT030221</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
